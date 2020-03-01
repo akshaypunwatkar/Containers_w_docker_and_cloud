@@ -6,7 +6,7 @@ The contaier can be downloaded from: https://hub.docker.com/repository/docker/ak
 
 ## Getting Started
 
-The project is a demonstration of a containerised flask application. The application is **Logo Detection** model, which for a given logo image url, identify the logo brand. The current model is trained using **Flicker 27 logo dataset**, and can only identify the logos of the brands listed below : 
+The project is a demonstration of a containerised flask application. The application is **Logo Detection** model, which for a given logo image url, identify the logo brand. The current model is trained using **Flicker 27 logo dataset**, and can only identify the logos of the brands listed below :     
 Adidas, Apple, BMW, Citroen, Coca Cola, DHL, Fedex, Ferrari, Ford, Google, Heineken, HP, McDonalds, Mini, Nbc, Nike, Pepsi, Porsche, Puma, Red Bull, Sprite, Starbucks, Intel, Texaco, Unisef, Vodafone and Yahoo.
 
 ## Prerequisites
