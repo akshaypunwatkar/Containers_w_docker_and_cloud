@@ -1,16 +1,16 @@
 
 #!/usr/bin/env bash
 
-dockerpath="noahgift/flasksklearn"
+dockerpath="akshaypunwatkar/logoclassifier"
 
 # Run in Docker Hub container with kubernetes
-kubectl run flaskskearlndemo\
+kubectl run logoclassifierdemo\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80 --labels app=flaskskearlndemo
+    --port=8088 --labels app=logoclassifierdemo
 
 # List kubernetes pods
 kubectl get pods
 
 # Forward the container port to host
-kubectl port-forward flaskskearlndemo 8000:80
+kubectl port-forward logoclassifierdemo 8088:8088
