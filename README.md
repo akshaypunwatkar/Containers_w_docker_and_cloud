@@ -14,9 +14,9 @@ Adidas, Apple, BMW, Citroen, Coca Cola, DHL, Fedex, Ferrari, Ford, Google, Heine
 For execution of the Container, **Docker** is required. 
 It could be downloaded from : https://www.docker.com/products/docker-desktop
 
-## Description of required files
+## Description of Images used
 
-
+Since the model was trained on annotated images containing only the logo *without* any noise in the image, the model might not give accurate results for images with nosie beside the logos. For best results, use cropped logo images such that the entire image is only of the corresponding logo
 
 ## Links to documentation
 
